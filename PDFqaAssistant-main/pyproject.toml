@@ -1,0 +1,17 @@
+[project]
+name = "aie5-deploypythonicrag"
+version = "0.1.0"
+description = "PDF RAG App"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "chainlit>=2.0.4",
+    "numpy>=2.2.2",
+    "google-generativeai>=0.3.0",
+    "python-dotenv>=1.0.0",
+    "pydantic==2.10.1",
+    "pymupdf>=1.25.1",
+    "chromadb>=0.6.3",
+    "tiktoken>=0.8.0",
+    "websockets>=14.2",
+]
